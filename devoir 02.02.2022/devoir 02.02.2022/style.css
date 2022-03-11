@@ -1,0 +1,149 @@
+body{
+	font-family: Arial, sans-serif;
+	background-image: url("img/background.png");
+}
+/*mise en forme header*/
+header{
+	position: fixed;
+	display: inline-block;
+	background-color: #C55394;
+	width: 100%;
+	height: 48px;
+	color: white;
+	align-items: center;
+}
+header>h2{
+	display: inline-block;
+	width: 48%;
+	margin: 0% auto;
+}
+
+h2,h4,h5{
+	font-family: 'Courgette', cursive;
+}
+
+h4,h5{
+	color: #EB43A3;
+}
+
+.menu{
+	display: inline-block;
+	width: 50%;
+	float: right;
+	text-align: center;
+}
+
+.menu>p{/*pour les liens contenues dans un paragraphe du div menu*/
+	margin: 0% auto;
+	float: right;/*placer les contenues à droite de la div*/
+	width: 33%;
+	padding: 14px 0px;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	padding: 3px 6px;
+}
+
+.menu>p:hover{
+	background-color: #EB43A3;
+}
+
+
+
+#titre{
+	align-items: center;
+	background-image: url("img/rainbow.png");
+	text-align: center;
+	color:#C55394;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px;
+	background-position-y: 50px;
+	height: 130px;
+	padding-top: 5px;
+}
+#titre > h2{
+	padding-top: 50px;
+}
+
+#corp{
+	margin: 0px auto;
+	width: 60%;
+	background-color: #fff;
+	padding: 10px 20px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;/*pour l'ombre sur le contour*/
+	border-radius: 10px;/*pour les bordures arrondie*/
+}
+#img_licornes{
+	display: inline-flex;/*pour que les image se mettent sur la même ligne sans problème*/
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+img{
+	width: 194px;
+	margin-left: 5px;	
+}
+
+img:hover{
+	width: 196.5px;
+}
+
+
+figcaption{/*replacer les commentaires sur les photos et non au-dessous*/
+	text-align: center;
+	width: 195px;
+	background-color: rgba(0, 0, 0, 0.8);/*la 4ème caractère et pour l'oppacité du fond noir*/
+	color: #fff;
+	margin-left: -195px;
+	margin-top: 180px;
+	margin-bottom: auto;
+	padding: 8px 0px;
+}
+
+.info{
+	position: relative;
+	float: right;/*déplacer la div vers la droite*/
+	margin-top: -450px;/*afin de sur-élever la div info*/
+}
+
+.adresse{
+	margin-top: 50px;
+}
+.newsletter{
+	margin-top: 80px;
+}
+
+button{/*viser l'id donnée dans la création du boutton "submit" afin de modifier les caractéristiques liés à son style*/
+	background-color: #EB43A3;
+	color: white;
+	width: 20%;
+	height: 30px;
+	border-radius: 5px;
+	font-family: Arial, sans-serif;
+	
+}
+
+button:hover{
+	box-shadow: 0px 0px 15px rgba(250, 247, 247, 0.8) inset ;
+	font-weight: bolder;
+}
+
+footer{
+	font-size: 8pt;;
+	width: 100%;
+	height: 20px;
+	background-color: #EB43A3;;
+	color: #fff;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: -3px;
+	padding-right: 9px;
+	margin-bottom: 0px;/*afin de coller le footer au pied de la page*/
+	margin-bottom: -10px;
+}
